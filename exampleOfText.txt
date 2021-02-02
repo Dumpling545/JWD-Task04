@@ -1,0 +1,39 @@
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua aua. Eu non diam phasellus vestibulum lorem sed. Ac turpis egestas integer eget aliquet nibh praesent. Dignissim convallis aenean et tortor. Tincidunt augue interdum velit euismod in pellentesque massa. Quis commodo odio aenean sed adipiscing diam donec adipiscing. Sodales ut etiam sit amet nisl purus in mollis nunc. Eget mi proin sed libero enim sed faucibus turpis in. Nisl rhoncus mattis rhoncus urna neque viverra justo nec. Sit amet est placerat in egestas erat. Eget duis at tellus at urna condimentum mattis. Sed velit dignissim sodales ut eu sem integer vitae. Accumsan in nisl nisi scelerisque eu ultrices vitae. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Imperdiet proin fermentum leo vel orci porta non pulvinar neque. Mi quis hendrerit dolor magna eget est lorem. Mattis nunc sed blandit libero volutpat sed cras ornare. Diam in arcu cursus euismod quis viverra nibh. Id volutpat lacus laoreet non curabitur gravida arcu.
+[code]
+public interface Parser<Source, Destination> {
+    Destination parse(Source src);
+    Source restore(Destination dest);
+}
+[/code]
+Eu facilisis sed odio morbi quis commodo?! Nec feugiat nisl pretium fusce id velit. Condimentum: lacinia quis vel eros. Volutpat odio facilisis mauris sit amet massa vitae tortor. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Elementum integer enim neque volutpat. Interdum varius sit amet mattis vulputate enim nulla aliquet. Viverra justo nec ultrices dui. Massa massa ultricies mi quis. Adipiscing elit duis tristique sollicitudin. Arcu dui vivamus arcu felis bibendum ut tristique. Pellentesque habitant morbi tristique senectus et netus. Mi eget mauris pharetra et ultrices neque ornare. Tortor vitae purus faucibus ornare suspendisse sed.
+[code]
+public static void main(String[] args) {
+    int port = Integer.parseInt(ResourceBundle.getBundle("by.tc.task04.properties.ServerInfo")
+            .getString("portNumber"));
+    try (ServerSocket serverSocket = new ServerSocket(port);) {
+        while (true) {
+            Socket clientSocket = serverSocket.accept();
+            (new ClientHandler(clientSocket)).start();
+        }
+    } catch (IOException e) {
+        System.err.println(e.getMessage());
+    }
+}
+[/code]
+In hac habitasse platea; dictumst vestibulum rhoncus est pellentesque elit... Erat nam at lectus urna duis convallis convallis tellus. Tortor at auctor urna nunc. Scelerisque in fermentum dui faucibus in ornare quam. Amet mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Vel eros donec ac odio tempor orci dapibus. Ut diam quam nulla porttitor massa id neque. Risus at ultrices mi tempus imperdiet nulla malesuada. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Suscipit tellus mauris a diam maecenas.
+[code]
+private final String HOST_NAME = "127.0.0.1";
+private final int PORT = 8000;
+private ObjectOutputStream out;
+private ObjectInputStream in;
+private Socket socket;
+[/code]
+Scelerisque purus semper eget duis at. Quis enim lobortis scelerisque fermentum!!! Ut venenatis tellus in metus vulputate eu scelerisque. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Ornare quam viverra orci sagittis. Egestas maecenas pharetra convallis posuere morbi leo urna molestie??? Lorem ipsum dolor sit amet consectetur adipiscing. Est ullamcorper eget nulla facilisi etiam dignissim diam. Purus in gravida quis blandit turpis cursus in. Lacus vel facilisis volutpat est velit. Dignissim sodales ut eu sem. Nisl suscipit adipiscing bibendum est. Eros donec ac odio tempor orci dapibus ultrices in. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit. Justo laoreet sit amet cursus sit. Orci phasellus egestas tellus rutrum tellus pellentesque. Senectus et netus et malesuada fames ac.
+[code]
+public void shouldAnswerWithTrue()
+    {
+        assertTrue( true );
+    }
+}
+[/code]
+Iaculis urna id volutpat lacus. Cras tincidunt lobortis feugiat vivamus at? Purus semper eget duis at tellus at urna. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Eros in cursus turpis massa tincidunt dui ut. Suspendisse potenti nullam ac tortor vitae. Egestas diam in arcu cursus. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies leo. Volutpat est velit egestas dui id. Dolor magna eget est lorem ipsum. Consectetur adipiscing elit ut aliquam purus sit amet luctus. Phasellus vestibulum lorem sed risus ultricies tristique. Amet nulla facilisi morbi tempus iaculis. Quam nulla porttitor massa id neque aliquam vestibulum morbi blandit.
